@@ -1,5 +1,7 @@
 #!/bin/sh
 
+export PORT=8081
+export REDIS_URL=redis://localhost:6380/
 set -e
 
 npm install
